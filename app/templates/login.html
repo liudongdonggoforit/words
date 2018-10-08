@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<form class="form-horizontal" role="form" action="/login" method="POST">
+		<div class="form-group">
+			<label class="col-sm-2 control-label">单词</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="w_name" placeholder="请输入单词">
+			</div>
+			<label class="col-sm-2 control-label">含义</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="w_annotation" placeholder="请输入单词含义">
+			</div>
+			<label class="col-sm-2 control-label">首字母</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="w_initial" placeholder="请输入首字母">
+			</div>
+			<label class="col-sm-2 control-label">词组</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="w_group" placeholder="请输入词组">
+			</div>
+			<label class="col-sm-2 control-label">例子</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="w_example" placeholder="请输入例子">
+			</div>
+			<label class="col-sm-2 control-label">翻译</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="w_translation" placeholder="请输入翻译">
+			</div>
+			<label class="col-sm-2 control-label">派生</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="w_derivate" placeholder="请输入派生词">
+			</div>
+			<label class="col-sm-2 control-label">备注</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="w_comment" placeholder="请输入备注">
+			</div>
+			<label class="col-sm-2 control-label">派生解释</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="d_annotation" placeholder="请输入派生解释">
+			</div>
+			<label class="col-sm-2 control-label">章节</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="w_section" placeholder="请输入章节">
+			</div>
+		</div>
+		<div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		      <button type="submit" class="btn btn-default">提交</button>
+		    </div>
+	 	 </div>
+	</form>
+</body>
+</html>
